@@ -1,5 +1,17 @@
 .box {
     width: 2rem;
     height: 2rem;
-    background-color: brown;
+    background-color: rgb(250, 134, 134);
+}
+
+.green {
+    background-color: rgb(23, 148, 23);
+}
+
+.yellow {
+    background-color: rgb(211, 211, 35);
+}
+
+.blue {
+    background-color: rgb(24, 24, 170);
 }
