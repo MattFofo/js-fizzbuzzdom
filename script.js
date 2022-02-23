@@ -1,11 +1,8 @@
 
-let mainContent = document.querySelector('.main');
-
-
 // algoritmo per contare da 1 a 100
 
 for (let i = 1; i < 101; i++) {
-
+    let mainContent = document.querySelector('.main');
     let elementBox = document.createElement('div');
     elementBox.classList.add('box');
     elementBox.innerHTML = i;
@@ -27,14 +24,6 @@ for (let i = 1; i < 101; i++) {
 
     }
 
-    
 
-    
-    
-    console.log(elementBox);
-
-    mainContent.append(elementBox);
-    
-    
-        
+    mainContent.append(elementBox);       
 }
