@@ -1,6 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .box {
-    width: 2rem;
-    height: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
     background-color: rgb(250, 134, 134);
 }
 
